@@ -1,0 +1,7 @@
+selenium
+webdriver-manager
+pandas
+gspread
+oauth2client
+gspread-dataframe
+selenium-wire

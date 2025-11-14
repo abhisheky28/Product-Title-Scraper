@@ -1,0 +1,40 @@
+2025-11-10 14:19:57,799 - INFO - --- Starting Product Title Scraper ---
+2025-11-10 14:19:57,800 - INFO - Connecting to Google Sheets API...
+2025-11-10 14:19:57,848 - INFO - Successfully connected to Google Sheets API.
+2025-11-10 14:20:01,582 - INFO - Fetching URLs from worksheet: 'Header scraper'
+2025-11-10 14:20:02,134 - INFO - Successfully fetched 149 URLs to process.
+2025-11-10 14:20:02,135 - INFO - Clearing the output sheet 'Scraped Products' for a fresh start...
+2025-11-10 14:20:03,237 - INFO - Output sheet cleared and headers restored.
+2025-11-10 14:20:03,238 - INFO - Initializing a fresh Chrome WebDriver instance...
+2025-11-10 14:20:03,239 - INFO - ====== WebDriver manager ======
+2025-11-10 14:20:05,006 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-10 14:20:05,508 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-10 14:20:06,029 - INFO - Driver [C:\Users\Abhishek Yadav\.wdm\drivers\chromedriver\win64\142.0.7444.61\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-10 14:20:07,402 - INFO - 
+--- Processing URL 1/149: https://www.myntra.com/coffee-maker ---
+2025-11-10 14:20:09,040 - INFO - Product data has loaded successfully.
+2025-11-10 14:20:09,128 - INFO - Detected 1 total pages.
+2025-11-10 14:20:09,129 - INFO - Will scrape a maximum of 1 pages.
+2025-11-10 14:20:09,129 - INFO - Scraping page 1/1...
+2025-11-10 14:20:12,204 - INFO - Successfully wrote 46 new rows to 'Scraped Products'.
+2025-11-10 14:20:12,206 - INFO - 
+--- Processing URL 2/149: https://www.myntra.com/oziva-protein ---
+2025-11-10 14:20:14,097 - INFO - Product data has loaded successfully.
+2025-11-10 14:20:14,151 - INFO - Detected 1 total pages.
+2025-11-10 14:20:14,151 - INFO - Will scrape a maximum of 1 pages.
+2025-11-10 14:20:14,151 - INFO - Scraping page 1/1...
+2025-11-10 14:20:17,214 - INFO - Successfully wrote 36 new rows to 'Scraped Products'.
+2025-11-10 14:20:17,214 - INFO - 
+--- Processing URL 3/149: https://www.myntra.com/oziva-protein-for-men ---
+2025-11-10 14:20:18,487 - INFO - Product data has loaded successfully.
+2025-11-10 14:20:18,507 - INFO - Detected 1 total pages.
+2025-11-10 14:20:18,507 - INFO - Will scrape a maximum of 1 pages.
+2025-11-10 14:20:18,507 - INFO - Scraping page 1/1...
+2025-11-10 14:20:21,065 - INFO - Successfully wrote 25 new rows to 'Scraped Products'.
+2025-11-10 14:20:21,065 - INFO - 
+--- Processing URL 4/149: https://www.myntra.com/oziva-plant-protein ---
+2025-11-10 14:20:21,550 - INFO - Closing WebDriver.
+2025-11-10 14:20:25,621 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A85C9799D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5c72eafb0ffba6100b3cea7c5b40aa79
+2025-11-10 14:20:29,700 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A85C979730>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5c72eafb0ffba6100b3cea7c5b40aa79
+2025-11-10 14:20:33,793 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A85C97B1D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5c72eafb0ffba6100b3cea7c5b40aa79
+2025-11-10 14:20:37,870 - INFO - --- Product Title Scraper Finished ---
